@@ -1,29 +1,30 @@
-body {
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.page-wrapper{
     display: flex;
-    margin: 0;
-    padding: 0;
+    flex-flow: row nowrap;
+    margin: 0 5%;
 }
-
-h1 {
-    border-bottom: 1px solid black;
-    align-self: flex-start;
+h1{
+    border-bottom: solid 2px black;
+    width: 350px;
+    margin: 0 5%;
 }
-
-section.top {
+.left-column{
+    width: 50%;
+}
+.right-column{
+    width: 50%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-    background-color: #B5E8EF;
-    justify-content: space-around;
+    flex-flow: row wrap;
 }
-
-section.choices button {
-    background-color: #F8BABA ;
+.location{
+    width: 100%;
 }
-
-section.choices {
+.choices{
     display: flex;
     flex-direction: column;
     align-self: flex-start;
@@ -31,11 +32,10 @@ section.choices {
     overflow-y: scroll;
     height: 80vh;
     width: 30vw;
-
 }
-
-section.career {
+.career{
     display: flex;
-    margin-top: 15px;
-    margin-bottom: 15px;
+}
+.payroll{
+    width: 100%;
 }
