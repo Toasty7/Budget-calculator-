@@ -32,9 +32,13 @@ h1{
     overflow-y: scroll;
     height: 80vh;
     width: 30vw;
+    
 }
 .career{
     display: flex;
+    justify-content: center;
+    background-color: #F8BABA;
+    padding-left:20px;
 }
 .payroll{
     width: 100%;
@@ -66,3 +70,15 @@ body{
     font-style: italic;
   }
   
+  section button{
+    background-color: transparent;
+    border-style: hidden;
+  }
+
+  section button:hover {
+    background-color: #db5a5a;
+  }
+
+  section p{
+    margin: 15px;
+  }
