@@ -1,84 +1,118 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.page-wrapper{
-    display: flex;
-    flex-flow: row nowrap;
-    margin: 0 5%;
+
+body {
+  background-color: #BAFFA9;
 }
-h1{
-    border-bottom: solid 2px black;
-    width: 350px;
-    margin: 0 5%;
+
+.page-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0 5%;
 }
-.left-column{
-    width: 50%;
+
+h1 {
+  border-bottom: solid 2px black;
+  width: 350px;
+  margin: 0 5%;
 }
-.right-column{
-    width: 50%;
-    display: flex;
-    flex-flow: row wrap;
+
+.left-column {
+  width: 50%;
 }
-.location{
-    width: 100%;
+
+.right-column {
+  width: 50%;
+  display: flex;
+  flex-flow: row wrap;
 }
-.choices{
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    justify-content: space-around;
-    overflow-y: scroll;
-    height: 80vh;
-    width: 30vw;
-    
+
+.location {
+  width: 100%;
+  margin: 5%;
 }
-.career{
-    display: flex;
-    justify-content: center;
-    background-color: #F8BABA;
-    padding-left:20px;
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  justify-content: space-around;
+  overflow-y: scroll;
+  height: 80vh;
+  width: 30vw;
 }
-.payroll{
-    width: 100%;
+
+.career {
+  display: flex;
+  justify-content: center;
+  background-color: #F8BABA;
+  padding-left: 20px;
 }
-body{
-    background-color:#BAFFA9;
+
+.payroll {
+  width: 100%;
+  margin-top: 25%;
 }
+
+button {
+  background-color: transparent;
+  border-style: hidden;
+  font-size: larger;
+}
+
+button:hover {
+  background-color: #db5a5a;
+}
+
+section p {
+  margin: 15px;
+}
+
+.styledButton {
+  border: solid;
+  background-color: white;
+  width: 25px;
+  border-radius: 25%;
+}
+
+.styledButton:hover {
+  background-color: #B5E8EF;
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+
+[role='row'] {
+  display: flex;
+}
+
+/*fonts*/
 .pt-serif-regular {
-    font-family: "PT Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .pt-serif-bold {
-    font-family: "PT Serif", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .pt-serif-regular-italic {
-    font-family: "PT Serif", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .pt-serif-bold-italic {
-    font-family: "PT Serif", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  section button{
-    background-color: transparent;
-    border-style: hidden;
-  }
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  section button:hover {
-    background-color: #db5a5a;
-  }
+.pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
-  section p{
-    margin: 15px;
-  }
+.pt-serif-regular-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-serif-bold-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
